@@ -5,6 +5,10 @@ body {
     background-color: #f2f2f2;
     margin: 0;
     padding: 0;
+  
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+
 }
 
 .container {
@@ -50,6 +54,22 @@ a {
     a:hover {
         text-decoration: underline;
     }
+
+foto-perfil {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    margin: 20px 0;
+}
+
+.foto-perfil img {
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 
 
